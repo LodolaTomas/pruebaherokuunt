@@ -10,4 +10,4 @@ app.get('/*', function(req,res){
 
 });
 
-console.log('Build successful!!')
+console.log('Build successful!!');
