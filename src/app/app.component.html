@@ -1,2 +1,14 @@
-<h1>{{title}}</h1>
+<div>
+    <h1>{{title}}</h1>
+    <input type="text" [(ngModel)]="Edad1">
+    <br>
+    <input type="text" [(ngModel)]="Edad2">
+    <br>
+    <button (click)="calcular()">Calcular</button>
+    <button (click)="limpiar()">limpiar</button>
+    <p><b>Suma Total: </b>{{sum}}</p>
+    <p><b>Promedio: </b>{{prom}}</p>
+
+</div>
+
 <router-outlet></router-outlet>
